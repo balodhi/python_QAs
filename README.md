@@ -5,4 +5,4 @@ https://github.com/zhiwehu/Python-programming-exercises
 
 ## Description
 
-Use QAs.md to see the questions and their answers.
+open QAs.md to see the questions and their answers.
