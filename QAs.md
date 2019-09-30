@@ -1,4 +1,4 @@
-# 100+ Python challenging programming exercises
+# Python challenging programming exercises
 
 ## Forked from:
 https://github.com/zhiwehu/Python-programming-exercises
