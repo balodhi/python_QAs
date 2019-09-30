@@ -333,3 +333,37 @@ for sentence in lines:
 ```
 </details>
 </details>
+
+---
+
+<details>
+<summary><b>Question 10</b></summary>
+
+### Question:
+Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
+
+
+#### Example
+Suppose the following input is supplied to the program: \
+hello world and practice makes perfect and hello world again \
+Then, the output should be: \
+again and hello makes perfect practice world
+
+### Level 2
+### Hints:
+In case of input data being supplied to the question, it should be assumed to be a console input.
+We use set container to remove duplicated data automatically and then use sorted() to sort the data.
+
+### Solution
+<details>
+<summary> See Solution </summary>
+
+``` python
+s = raw_input()
+words = [word for word in s.split(" ")]
+print " ".join(sorted(list(set(words))))
+```
+</details>
+</details>
+
+---
